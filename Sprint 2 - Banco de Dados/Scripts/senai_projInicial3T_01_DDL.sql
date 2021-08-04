@@ -1,6 +1,8 @@
 CREATE DATABASE projetoInicial3T
 GO
 
+--DDL
+
 --  Nome que o projeto deverá ter : senai_projInicial3T_01_DDL.sql
 
 USE projetoInicial3T
