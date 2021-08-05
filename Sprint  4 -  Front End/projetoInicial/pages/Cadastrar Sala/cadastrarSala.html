@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Sala</title>
+    <link rel="stylesheet" href="/projetoInicial/assets/css/sala.css">
+    <link rel="icon" type="image/ico" href="https://www.sp.senai.br/favicon.ico">
+</head>
+<body>
+
+    <header class="cabecalho-principal">
+        <div class="container">
+            <nav class="cabecalhoPrincipal-nav">
+                <img src="/projetoInicial/assets/img/senai-logo 4.png" alt="Image" height="50" width="220"> 
+              <a>Cadastrar Sala</a>
+              <a class="cabecalhoPrincipal-nav-login" href="cadastrarEquipamentos.html">Cadastrar Equipamentos</a>
+              <a class="login" href="login.html">Sair</a>
+            </nav>
+          </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="content">
+                <div class="tituloSala">
+                    <h1>Cadastrar Sala</h1>
+                    <hr>
+
+                </div>
+
+            </div>
+
+
+            <form>
+                <div class="grid_1" >
+                    <input type="text" name="name" placeholder="Nome" class="input watermark" />
+                </div> 
+                <input type="hidden" name="form_input" value="FORM_COTACAO" />
+                <div class="grid_1 " >
+                    <div class="grid_1_1">
+                        <p>Andar</p>
+                        <select name="andar" class="custom" data-width="10" data-value="Tipo de Equipamento">
+                            <option value="">Andar 1</option>
+                            <option value="">------</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid_1">
+                    <input type="text" name="metragem" placeholder="Metragem" class="input watermark" />
+                </div>
+
+
+            </form>
+        </section>
+    </main>
+
+    
+</body>
+</html>
