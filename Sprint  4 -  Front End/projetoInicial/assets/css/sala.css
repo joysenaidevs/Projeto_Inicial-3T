@@ -70,3 +70,49 @@ hr{
     width:100%; 
  
 }
+
+/* formulario editar Sala */
+.content-editar{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-sala{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/* botao editar e CADASTRAR */
+.btn-editar{
+    width: 160px;
+    height: 50px;
+    margin-top: 40px;
+    background: #264E73;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+}
+
+.button{
+    /* DIV BUTTON */
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.button p {
+    /* <P> - Do botao de Editar E CADASTRAR*/
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Arrumando espaçamento da section de Editar Salas */
