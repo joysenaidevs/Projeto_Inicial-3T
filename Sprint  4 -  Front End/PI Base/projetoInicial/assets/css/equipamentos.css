@@ -29,6 +29,7 @@ body hr{
     margin: auto;
 }
 
+/* Section Titulo Cadastrar equipamento */
 .sec_1{
     width: 100%;
     height: 100%;
@@ -36,6 +37,7 @@ body hr{
     /* background-color: rgba(127, 255, 212, 0.377); */
 }
 
+/* Css responsavel pelo formulario Tipo de E, Marca, botão, número de serie */
 .grid_1{
     width: 100%;
     height: 7rem;
